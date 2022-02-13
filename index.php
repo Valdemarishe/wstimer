@@ -269,9 +269,9 @@ if ($r) {
 <div class="footer">
     <button id="stoptimer" onclick="triggerTimer()">Start/Stop timer</button>
     <button id="resettimer" onclick="resetTimer()">Reset timer</button>
-    <input type="text" id="appt" name="appt" value="01:30" onchange="updateTime(this.value)">
-    <button id="onehalfhour" onclick="updateTime('01:30')">01:30</button>
-    <button id="onehouttwenty" onclick="updateTime('01:20')">01:20</button>
+    <input type="text" id="appt" name="appt" value="01:45" onchange="updateTime(this.value)">
+    <button id="onehalfhour" onclick="updateTime('01:45')">01:45</button>
+    <button id="onehouttwenty" onclick="updateTime('02:00')">02:00</button>
     <button id="halfhour" onclick="updateTime('00:30')">00:30</button>
     <button id="fifth" onclick="updateTime('00:15')">00:15</button>
 </div>
